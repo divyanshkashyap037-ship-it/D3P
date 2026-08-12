@@ -57,7 +57,7 @@ const LabDesk = () => {
   return (
     <section ref={deskRef} id="top" className="relative h-screen w-full overflow-clip">
       <img
-        src="/media/lab-wallpaper.jpg"
+        src="/media/lab-wallpaper.png"
         alt=""
         className="absolute inset-0 hidden h-full w-full object-cover tab:block"
         draggable={false}
@@ -66,7 +66,7 @@ const LabDesk = () => {
         aria-hidden="true"
         className="absolute inset-0 tab:hidden"
         style={{
-          backgroundImage: "url(/media/lab-wallpaper.jpg)",
+          backgroundImage: "url(/media/lab-wallpaper.png)",
           backgroundSize: "1033px auto",
           backgroundRepeat: "repeat",
           backgroundPosition: "center",

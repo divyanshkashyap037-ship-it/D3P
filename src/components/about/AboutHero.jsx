@@ -48,7 +48,7 @@ const AboutHero = () => (
   <section id="top" className="relative mx-auto flex w-full max-w-[1500px] flex-col items-center gap-[20px] px-[25px] py-[70px] tab:flex-row tab:items-center tab:gap-[30px] tab:px-[50px] desk:gap-[60px]">
     <div className="pointer-events-none relative z-0 aspect-[0.815348] w-[340px] overflow-visible tab:aspect-[0.711429] tab:w-[35%] desk:aspect-[0.744231]">
       <img
-        src="/media/about-portrait.jpg"
+        src="/media/hero-blue.jpg"
         alt=""
         draggable={false}
         className="block h-full w-full object-cover"
